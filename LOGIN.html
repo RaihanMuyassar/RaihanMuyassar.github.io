@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+    a,
+    button {
+      cursor: pointer;
+    }
+    @keyframes pan {
+      100% {
+        background-position: 15% 50%;
+      }
+    }
+
+    body {
+      display: grid;
+      place-items: center;
+      margin: 0;
+      padding: 0 24px;
+      background-image: url("gambar/bg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation: pan 6s infinite alternate linear;
+    }
+
+    @media (width >= 500px) {
+      body {
+        padding: 0;
+      }
+    }
+    .login-card {
+      width: 100%;
+      padding: 70px 30px 40px;
+      border-radius: #ffffff;
+      text-align: center;
+    }
+
+    @media (width >= 500px) {
+      .login-card {
+        margin: 0;
+        width: 400px;
+      }
+    }
+    .login-card > h2 {
+      margin: 0 0 12px;
+      font-size: 36px;
+      font-weight: 600;
+    }
+    .login-card > h3 {
+      margin: 0 0 30px;
+      font-size: 16px;
+      font-weight: 500;
+      color: rgba(red, green, blue, alpha);
+    }
+    .login-form {
+      width: 100%;
+      margin: 0;
+      display: grid;
+      gap: 16px;
+    }
+    .login-form > a {
+      color: #216ce7;
+    }
+
+    .login-form > input,
+    .login-form > button {
+      width: 100%;
+      height: 56px;
+      padding: 0 16px;
+      border-radius: 8px;
+    }
+    .login-form > input {
+      border: 2px solid #ebebeb;
+    }
+    .login-form > button {
+      width: 100%;
+      height: 56px;
+      border: 0;
+      background: #216ce7;
+      color: #f9f9f9;
+      font-weight: 600;
+    }
+  </style>
+  <body>
+    <div class="login-card">
+      <h2>Login</h2>
+      <h3>Masukkan akun anda</h3>
+      <form class="login-form">
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <b>Belum punya akun?</b>
+        <a href="#"> forgot your password? </a>
+        <button>LOGIN</button>
+      </form>
+    </div>
+  </body>
+</html>

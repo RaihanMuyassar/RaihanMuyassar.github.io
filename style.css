@@ -1,0 +1,52 @@
+.shadow_ {
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.74);
+}
+.carouim_ {
+  display: grid;
+  place-items: center;
+  border-radius: 25px;
+}
+.vr {
+  color: aliceblue;
+}
+.cardr {
+  display: flex;
+  align-items: center;
+}
+.product-rates {
+  color: rgb(102, 98, 98);
+}
+
+.yellow-star {
+  color: rgb(255, 166, 0);
+}
+
+/* page 1 */
+.pageg1 {
+  border-radius: 25px;
+}
+.judul_lokasi {
+  display: flex;
+  align-items: center;
+  margin: 25px 0 25px 0;
+}
+.lokasi_tittle {
+  padding: 0 5px 0 5px;
+}
+.lokasi_tittle h2 {
+  margin: 1px 0 0 0;
+}
+.btn_color {
+  background-color: #051a37;
+  color: #ffde59;
+  font-weight: 500;
+}
+.btndaerah_ {
+  background-color: #051a37;
+  color: #ffde59;
+  font-weight: 500;
+}
+/* Tentang kami */
+
